@@ -87,8 +87,13 @@ python src/process.py --gt_root /path/to/MIND-Data --test_root /path/to/test/vid
 │   │   │   └── video.mp4
 |   |   ...
 |   |    
-│   └── mem_test
-│       ├── {corresponding data name}
+│   ├── mirror_test
+│   |   ├── {corresponding data name}
+│   |   │   └── video.mp4
+|   |   ...
+|   |
+|   └── mem_test
+│       ├── data-{i}
 │       │   └── video.mp4
 |       ...
 |
@@ -98,10 +103,16 @@ python src/process.py --gt_root /path/to/MIND-Data --test_root /path/to/test/vid
 │   │   │   └── video.mp4
 |   |   ...
 |   |    
+│   ├── mirror_test
+│   |   ├── {corresponding data name}
+│   |   │   └── video.mp4
+|   |   ...
+|   |
 │   └── mem_test
-│       ├── {corresponding data name}
+│       ├── data-{i}
 │       │   └── video.mp4
 |       ...
+```
 ```
 - `{model_name}`: custom your model name
 
