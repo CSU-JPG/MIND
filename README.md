@@ -93,7 +93,7 @@ python src/process.py --gt_root /path/to/MIND-Data --test_root /path/to/test/vid
 |   |   ...
 |   |
 |   └── mem_test
-│       ├── data-{i}
+│       ├── {corresponding data name}
 │       │   └── video.mp4
 |       ...
 |
@@ -109,14 +109,13 @@ python src/process.py --gt_root /path/to/MIND-Data --test_root /path/to/test/vid
 |   |   ...
 |   |
 │   └── mem_test
-│       ├── data-{i}
+│       ├── {corresponding data name}
 │       │   └── video.mp4
 |       ...
 ```
-```
 - `{model_name}`: custom your model name
-
 - `{corresponding data name}`: corresponding ground truth data file name
+
 
 #####  5. The detailed information of output **<span style="color:red">`Result.json`</span>**
 
@@ -195,7 +194,7 @@ python src/process.py --gt_root /path/to/MIND-Data --test_root /path/to/test/vid
 
 ## 🗂 Dataset Format
 
-#### <span style="color:#1F82C0">M</span><span style="color:#1CBF91">I</span><span style="color:#39C46E">N</span><span style="color:#149C7E">D</span> is available [here](https://huggingface.co/datasets) ! ! ! 
+#### <span style="color:#1F82C0">M</span><span style="color:#1CBF91">I</span><span style="color:#39C46E">N</span><span style="color:#149C7E">D</span> is available [here](https://huggingface.co/datasets/CSU-JPG/MIND) ! ! ! 
 
 ##### 1. The structure of **<span style="color:#1F82C0">M</span><span style="color:#1CBF91">I</span><span style="color:#39C46E">N</span><span style="color:#149C7E">D</span>** ground truth videos **(both for training and for testing)**
 
@@ -204,18 +203,18 @@ MIND-Data
 ├── 1st_data
 │   ├── test
 │   │   ├── action_space_test
-│   │   │   ├── data-1
+│   │   │   ├── data-{i}
 │   │   │   │   ├── action.json
 │   │   │   │   └── video.mp4
 |   |   |   ...
 |   |   |    
 │   │   └── mem_test
-│   │       ├── data-26
+│   │       ├── data-{i}
 │   │       │   ├── action.json
 │   │       │   └── video.mp4
 |   |       ...
 |   └── train
-|       ├── data-76
+|       ├── data-{i}
 |       │   ├── action.json
 |       │   └── video.mp4
 |       ...
@@ -223,18 +222,18 @@ MIND-Data
 ├── 3rd_data
 │   ├── test
 │   │   ├── action_space_test
-│   │   │   ├── data-126
+│   │   │   ├── data-{i}
 │   │   │   │   ├── action.json
 │   │   │   │   └── video.mp4
 |   |   |   ...
 |   |   |    
 │   │   └── mem_test
-│   │       ├── data-151
+│   │       ├── data-{i}
 │   │       │   ├── action.json
 │   │       │   └── video.mp4
 |   |       ...
 |   └── train
-|       ├── data-251
+|       ├── data-{i}
 |       │   ├── action.json
 |       │   └── video.mp4
 |       ...
