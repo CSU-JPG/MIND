@@ -3,8 +3,9 @@
 </p>
 <h2 align="center"><span style="color:#1F82C0">M</span><span style="color:#1CBF91">I</span><span style="color:#39C46E">N</span><span style="color:#149C7E">D</span>: Benchmarking Memory Consistency and Action Control in World Models</h2>
 <h5 align="center"><span style="color:red">TL;DR:</span> The first open-domain closed-loop revisited benchmark for evaluating memory consistency and action control in world models</h5>
-
-​                                                                🌐[Homepage](https://csu-jpg.github.io/MIND.github.io/) | 👉 [Dataset](https://csu-jpg.github.io/MIND.github.io/) | 📄 [Paper](https://csu-jpg.github.io/MIND.github.io/) | 🏆 [Leaderboard (coming soon)]
+<p align="center">
+🌐[Homepage](https://csu-jpg.github.io/MIND.github.io/) | 👉 [Dataset](https://csu-jpg.github.io/MIND.github.io/) | 📄 [Paper](https://csu-jpg.github.io/MIND.github.io/) | 🏆 Leaderboard (coming soon)
+</p>
 ## 📢 Updates
 
 - **[2026-2-9]**: **MIND** is online 🎉 🎉 🎉
