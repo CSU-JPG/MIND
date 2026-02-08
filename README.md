@@ -5,7 +5,7 @@
 <h5 align="center"><span style="color:red">TL;DR:</span> The first open-domain closed-loop revisited benchmark for evaluating memory consistency and action control in world models</h5>
 <div align="center">
 
-🌐[Homepage](https://csu-jpg.github.io/MIND.github.io/) | 👉 [Dataset](https://huggingface.co/datasets/CSU-JPG/MIND) | 📄 [Paper](https://csu-jpg.github.io/MIND.github.io/) | 💻 [Code](https://github.com/your-repo-here) | 🏆 [Leaderboard (coming soon)](https://csu-jpg.github.io/MIND.github.io/)
+🌐[Homepage](https://csu-jpg.github.io/MIND.github.io/) | 👉 [Dataset](https://huggingface.co/datasets/CSU-JPG/MIND) | 📄 [Paper](https://csu-jpg.github.io/MIND.github.io/) | 💻 [Code](https://github.com/CSU-JPG/MIND) | 🏆 [Leaderboard (coming soon)](https://csu-jpg.github.io/MIND.github.io/)
 
 </div>
 
