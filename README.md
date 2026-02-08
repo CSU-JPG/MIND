@@ -108,6 +108,80 @@ python src/process.py --gt_root /path/to/MIND-Data --test_root /path/to/test/vid
 - `{corresponding data name}`: corresponding ground truth data file name
 
 #####  5. The detailed information of output **<span style="color:red">`Result.json`</span>**
+
+```
+{
+  "video_max_time": [int] video_max_time given in cmd parameters; max frames of the sample video to compute metrics (except action accuracy).
+  "data": [
+    {
+      "path": [string] the directory name of the video data.
+      "perspective": [string] 1st_data/3rd_data, the perspective of the video data.
+      "test_type": [string] mem_test/action_space_test, the test set of the video data.
+      "error": [string] the error occur when computing metrics
+      "mark_time": [int] the divider of memory context and expected perdiction; the start frame index of the expected prediction.
+      "total_time": [int] the total frames of the ground truth video.
+      "sample_frames": [int ]the total frames of the video to be tested.
+      "lcm": { the long context memory metric result.
+        "mse": [list[float]] the per-frame mean square error.
+        "avg_mse": [float] the average of mse.
+        "lpips": [list[float]] the per-frame Learned Perceptual Image Patch Similarity.
+        "avg_lpips": [float] the average of lpips.
+        "ssim": [list[float]] the per-frame Structural Similarity Index Measure.
+        "avg_ssim": [float] the average of ssim.
+        "psnr": [list[float]] the per-frame Peak Signal-to-Noise Ratio.
+        "avg_psnr": [float] the average of psnr.
+      },
+      "visual_quality": { the visual quality metric result.
+        "imaging": [list[float]] the per-frame imaging quality.
+        "avg_imaging": [float] the average of imaging quality. 
+        "aesthetic": [list[float]] the per-frame aesthetic quality.
+        "avg_imaging": [float] the average of aesthetic quality. 
+      },
+      "action": { the action accuracy metric result. computed by ViPE pose estimation and trajectory alignment.
+        "__overall__": { the overall statistics of all valid frames after outlier filtering.
+          "count": [int] number of valid samples used for statistics.
+          "rpe_trans_mean": [float] mean of Relative Pose Error for translation (in meters).
+          "rpe_trans_median": [float] median of RPE translation.
+          "rpe_rot_mean_deg": [float] mean of RPE rotation in degrees.
+          "rpe_rot_median_deg": [float] median of RPE rotation.
+        },
+        "translation": { the statistics of pure translation actions (forward/backward/left/right).
+          "count": [int] number of valid samples for translation actions.
+          "rpe_trans_mean": [float] mean RPE translation for translation actions.
+          "rpe_trans_median": [float] median RPE translation for translation actions.
+          "rpe_rot_mean_deg": [float] mean RPE rotation for translation actions.
+          "rpe_rot_median_deg": [float] median RPE rotation for translation actions.
+        },
+        "rotation": { the statistics of pure rotation actions (cam_left/cam_right/cam_up/cam_down).
+          "count": [int] number of valid samples for rotation actions.
+          ...
+        },
+        "other": { the statistics of combined actions (e.g., forward+look_right).
+          "count": [int] number of valid samples for other actions.
+          ...
+        },
+        "act:forward": { the statistics of specific action "forward".
+          "count": [int] number of valid samples for this action.
+          "rpe_trans_mean": [float] mean RPE translation.
+          "rpe_trans_median": [float] median RPE translation.
+          "rpe_rot_mean_deg": [float] mean RPE rotation.
+          "rpe_rot_median_deg": [float] median RPE rotation.
+        },
+        "act:look_right": { the statistics of specific action "look_right".
+          ...
+        },
+        ...
+      },
+      "dino": { the dino mse metric result.
+        "dino_mse": [list[float]] the per-frame mse of dino features.
+        "avg_dino_mse": [float] the average of dino_mse. 
+      }
+    },
+    ...
+  ]
+}
+```
+
 ## 🗂 Dataset Format
 
 #### <span style="color:#1F82C0">M</span><span style="color:#1CBF91">I</span><span style="color:#39C46E">N</span><span style="color:#149C7E">D</span> is available [here](https://huggingface.co/datasets) ! ! ! 
