@@ -83,7 +83,8 @@ def ensure_all_models_downloaded():
     tqdm.write("All models ready.\n")
 
 def transform_image(images):
-    # 输入: images (Tensor) - 形状为 [B, C, H, W] 输出: 归一化后的 [B, C, 1280, 720] Tensor
+    # 输入: images (Tensor) - 形状为 [B, C, H, W], 范围[0,255]
+    # 输出: 归一化后, 范围[0,1]的 [B, C, 1280, 720] Tensor
     b, c, h, w = images.size()
     if h * 1280 == w * 720:
         images = transforms.Resize(size=(720, 1280), antialias=False)(images)
@@ -118,30 +119,92 @@ def save_video(tensor, output_path):
 def expand_to_batch_dim(tensor, batch_size):
     return tensor.unsqueeze(0).expand(batch_size, *tensor.shape)
 
+# legacy code, preserve
 from torchvision.io import read_video
-def load_sample_video(video_path, mark_time, total_time, max_time = 200) -> torch.Tensor:
+import av
+
+def load_sample_video(video_path, mark_time, total_time, max_time = None) -> torch.Tensor:
     video_length = total_time - mark_time
     frames,_,_ = read_video(video_path, pts_unit='sec')
-    frames = frames.permute(0, 3, 1, 2)[:min(max_time, video_length)]
+    frames = frames.permute(0, 3, 1, 2)[:video_length]
+    if max_time is not None:
+        frames = frames[:max_time]
     return transform_image(frames)
 
-def load_gt_video(video_path, mark_time, total_time, max_time = 200) -> torch.Tensor:
-    start_time = (mark_time-12) / 24
+def load_gt_video(video_path, mark_time, total_time, max_time = None) -> torch.Tensor:
+    start_time = mark_time // 24 - 1
     frames,_,_ = read_video(video_path, pts_unit='sec', start_pts=start_time)
-    
+
     frames = frames.permute(0, 3, 1, 2)
     video_length = total_time - mark_time
     frames = frames[len(frames) - video_length:]
-    if video_length > max_time:
+    if max_time is not None:
         frames = frames[:max_time]
     return transform_image(frames)
+
+def get_video_length(video_path) -> int:
+    """获取视频帧数"""
+    with av.open(video_path) as container:
+        return container.streams.video[0].frames
+
+class VideoStreamReader:
+    """使用av进行流式视频读取，内存安全"""
+    def __init__(self, video_path, start_frame=0, total_frames=None):
+        self.video_path = video_path
+        self.container = av.open(video_path)
+        self.video_stream = self.container.streams.video[0]
+        self.fps = float(self.video_stream.average_rate)
+
+        stream_total_frames = self.video_stream.frames
+        self.total_frames = stream_total_frames if total_frames is None else total_frames
+        self.current_pos = start_frame
+        print(f"[VideoStreamReader] {video_path}: stream_total={stream_total_frames}, start_frame={start_frame}, total_frames={self.total_frames}")
+
+        if start_frame > 0:
+            print(f"[VideoStreamReader] Skipping {start_frame} frames...")
+            for i in range(start_frame):
+                frame = next(self.container.decode(video=0), None)
+                if frame is None:
+                    break
+
+    def read_batch(self, batch_size):
+        """读取一批帧，返回(is_ended, frames_tensor)"""
+        if self.current_pos >= self.total_frames:
+            return True, None
+
+        frames_to_read = min(batch_size, self.total_frames - self.current_pos - 1)
+        frames_list = []
+
+        for i in range(frames_to_read):
+            try:
+                frame = next(self.container.decode(video=0), None)
+                self.current_pos += 1
+            except Exception as e:
+                print(f"[VideoStreamReader] ERROR: Exception at read_batch frame {i}/{frames_to_read}, current_pos={self.current_pos}: {e}")
+                break
+            if frame is None:
+                break
+            frames_list.append(torch.from_numpy(frame.to_rgb().to_ndarray()).float())
+
+        if not frames_list:
+            return True, None
+
+        frames_tensor = torch.stack(frames_list).permute(0, 3, 1, 2)
+        frames_tensor = transform_image(frames_tensor)
+
+        is_ended = self.current_pos >= self.total_frames
+        return is_ended, frames_tensor
+
+    def __del__(self):
+        if hasattr(self, 'container'):
+            self.container.close()
 
 def load_time_from_json(json_path):
     with open(json_path, 'r') as f:
         item = json.load(f)
     return item['mark_time'], item['total_time']
 
-def extract_actions_from_json(json_path, mark_time=None, video_max_time=200):
+def extract_actions_from_json(json_path, mark_time=None, video_max_time=97):
     with open(json_path, 'r') as f:
         action_data = json.load(f)
 

@@ -34,7 +34,7 @@ def extract_dinov3_features(frames: torch.Tensor, model=None, processor=None, de
 
     with torch.inference_mode():
         for i in range(0, f, batch_size):
-            batch_frames = frames[i:i+batch_size]  # [batch, c, h, w]
+            batch_frames = frames[i:i+batch_size].to(device)  # [batch, c, h, w]
 
             # 直接使用tensor，processor会自动处理归一化
             inputs = processor(images=batch_frames, return_tensors="pt").to(device)
@@ -50,6 +50,8 @@ def extract_dinov3_features(frames: torch.Tensor, model=None, processor=None, de
             patch_tokens_norm = torch.nn.functional.normalize(patch_tokens, p=2, dim=-1)
 
             features_list.append(patch_tokens_norm)
+
+            del batch_frames
 
     features = torch.cat(features_list, dim=0)  # [f, 196, 768]
 

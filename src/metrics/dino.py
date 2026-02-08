@@ -42,3 +42,14 @@ def dino_mse_metric(pred_frames, gt_frames, dino_model=None, dino_processor=None
     result_dict['avg_dino_mse'] = float(mse_per_frame.mean().cpu())
 
     return result_dict
+
+def merge_dino_results(result_dict, new_result):
+    """合并两个dino结果字典"""
+    if result_dict is None:
+        return new_result
+    if new_result is None:
+        return result_dict
+
+    result_dict['dino_mse'].extend(new_result['dino_mse'])
+    result_dict['avg_dino_mse'] = sum(result_dict['dino_mse']) / len(result_dict['dino_mse'])
+    return result_dict

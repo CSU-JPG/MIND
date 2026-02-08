@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.pdf" alt="logo" width="240"/>
+  <img src="assets/Logo.jpg" alt="logo" width="240"/>
 </p>
 <h2 align="center"><span style="color:#1F82C0">M</span><span style="color:#1CBF91">I</span><span style="color:#39C46E">N</span><span style="color:#149C7E">D</span>: Benchmarking Memory Consistency and Action Control in World Models</h2>
 <h5 align="center"><span style="color:red">TL;DR:</span> The first open-domain closed-loop revisited benchmark for evaluating memory consistency and action control in world models</h5>
@@ -31,7 +31,7 @@
 ## 🌟 Project Overview
 
 <p align="center">
-<img src="assets/Overview.pdf" alt="defense" width="100%" />
+<img src="assets/Overview.jpg" alt="defense" width="100%" />
 </p>
 <b>Fig 1. Overview of the <span style="color:#1F82C0">M</span><span style="color:#1CBF91">I</span><span style="color:#39C46E">N</span><span style="color:#149C7E">D</span>. We build and collect the first open-domain benchmark using Unreal Engine 5, supporting both first-person and third-person perspectives with 1080p resolution at 24 FPS.</b>
 
