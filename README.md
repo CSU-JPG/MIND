@@ -38,15 +38,7 @@
 
 ## 📊 Dataset Overview
 <p align="center">
-  <video 
-    src="assets/dataset_overview.mp4" 
-    alt="dataset_overview" 
-    width="100%" 
-    controls
-    muted
-    preload="metadata"
-    playsinline>
-  </video>
+<img src="assets/Dataset.jpg" alt="defense" width="100%" />
 </p><b>Fig 2. Distribution for Scene Categories and Action Space in <span style="color:#1F82C0">M</span><span style="color:#1CBF91">I</span><span style="color:#39C46E">N</span><span style="color:#149C7E">D</span> Dataset. <span style="color:#1F82C0">M</span><span style="color:#1CBF91">I</span><span style="color:#39C46E">N</span><span style="color:#149C7E">D</span> supports open-domain scenarios with diverse and well-balanced action spaces.</b></p>
 
 ## 🚀 Setup
