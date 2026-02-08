@@ -31,15 +31,24 @@
 ## 🌟 Project Overview
 
 <p align="center">
-<img src="assets/Overview.png" alt="defense" width="100%" />
+<img src="assets/Overview.jpg" alt="defense" width="100%" />
 </p>
 
 <b>Fig 1. Overview of the <span style="color:#1F82C0">M</span><span style="color:#1CBF91">I</span><span style="color:#39C46E">N</span><span style="color:#149C7E">D</span>. We build and collect the first open-domain benchmark using Unreal Engine 5, supporting both first-person and third-person perspectives with 1080p resolution at 24 FPS.</b>
 
 ## 📊 Dataset Overview
 <p align="center">
-<video src="assets/dataset_overview.mp4" alt="dataset_overview" width="100%" controls></video>
+  <video 
+    src="assets/dataset_overview.mp4" 
+    alt="dataset_overview" 
+    width="100%" 
+    controls
+    muted
+    preload="metadata"
+    playsinline>
+  </video>
 </p><b>Fig 2. Distribution for Scene Categories and Action Space in <span style="color:#1F82C0">M</span><span style="color:#1CBF91">I</span><span style="color:#39C46E">N</span><span style="color:#149C7E">D</span> Dataset. <span style="color:#1F82C0">M</span><span style="color:#1CBF91">I</span><span style="color:#39C46E">N</span><span style="color:#149C7E">D</span> supports open-domain scenarios with diverse and well-balanced action spaces.</b></p>
+
 ## 🚀 Setup
 
 ##### 1. Environment setup
