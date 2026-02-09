@@ -88,8 +88,12 @@ python src/process.py --gt_root /path/to/MIND-Data --test_root /path/to/test/vid
 |   |   ...
 |   |    
 │   ├── mirror_test
-│   |   ├── {corresponding data name}
-│   |   │   └── video.mp4
+│   |   ├── {arbitrary data name}
+│   │   │   ├── path-1.mp4
+│   │   │   ├── path-2.mp4
+│   │   │   ├── path-3.mp4
+│   │   │   ...
+│   │   │   └── path-10.mp4
 |   |   ...
 |   |
 |   └── mem_test
@@ -104,8 +108,12 @@ python src/process.py --gt_root /path/to/MIND-Data --test_root /path/to/test/vid
 |   |   ...
 |   |    
 │   ├── mirror_test
-│   |   ├── {corresponding data name}
-│   |   │   └── video.mp4
+│   |   ├── {carbitrary data name}
+│   │   │   ├── path-1.mp4
+│   │   │   ├── path-2.mp4
+│   │   │   ├── path-3.mp4
+│   │   │   ...
+│   │   │   └── path-10.mp4
 |   |   ...
 |   |
 │   └── mem_test
@@ -131,6 +139,26 @@ python src/process.py --gt_root /path/to/MIND-Data --test_root /path/to/test/vid
       "mark_time": [int] the divider of memory context and expected perdiction; the start frame index of the expected prediction.
       "total_time": [int] the total frames of the ground truth video.
       "sample_frames": [int ]the total frames of the video to be tested.
+      "video_results": [ the general scene consistency metric result.
+        {
+          "video_name": [string] the name of the video of the specific action path
+          "error": [string] the error occur when computing metrics in this video
+          "mark_time": [int] the divider of prediction and mirror perdiction; the start frame index of the mirror prediction.
+          "sample_frames": [int] total frames of prediction and mirror perdiction; should be 2x of marktime.
+          "gsc": { 
+            "length": [int] length of the origin prediction and the mirror prediction.
+            "mse": [list[float]] the per-frame mean square error.
+            "avg_mse": [float] the average of mse.
+            "lpips": [list[float]] the per-frame Learned Perceptual Image Patch Similarity.
+            "avg_lpips": [float] the average of lpips.
+            "ssim": [list[float]] the per-frame Structural Similarity Index Measure.
+            "avg_ssim": [float] the average of ssim.
+            "psnr": [list[float]] the per-frame Peak Signal-to-Noise Ratio.
+            "avg_psnr": [float] the average of psnr.
+          }
+        },
+        ...
+      ]
       "lcm": { the long context memory metric result.
         "mse": [list[float]] the per-frame mean square error.
         "avg_mse": [float] the average of mse.
@@ -203,18 +231,20 @@ MIND-Data
 ├── 1st_data
 │   ├── test
 │   │   ├── action_space_test
-│   │   │   ├── data-{i}
+│   │   │   ├── {gt data name}
 │   │   │   │   ├── action.json
+│   │   │   │   ├── images.txt
 │   │   │   │   └── video.mp4
 |   |   |   ...
 |   |   |    
 │   │   └── mem_test
-│   │       ├── data-{i}
+│   │       ├── {gt data name}
 │   │       │   ├── action.json
+│   │       │   ├── images.txt
 │   │       │   └── video.mp4
 |   |       ...
 |   └── train
-|       ├── data-{i}
+|       ├── {gt data name}
 |       │   ├── action.json
 |       │   └── video.mp4
 |       ...
@@ -222,18 +252,20 @@ MIND-Data
 ├── 3rd_data
 │   ├── test
 │   │   ├── action_space_test
-│   │   │   ├── data-{i}
+│   │   │   ├── {gt data name}
 │   │   │   │   ├── action.json
+│   │   │   │   ├── images.txt
 │   │   │   │   └── video.mp4
 |   |   |   ...
 |   |   |    
 │   │   └── mem_test
-│   │       ├── data-{i}
+│   │       ├── {gt data name}
 │   │       │   ├── action.json
+│   │       │   ├── images.txt
 │   │       │   └── video.mp4
 |   |       ...
 |   └── train
-|       ├── data-{i}
+|       ├── {gt data name}
 |       │   ├── action.json
 |       │   └── video.mp4
 |       ...

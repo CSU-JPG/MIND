@@ -153,17 +153,17 @@ class VideoStreamReader:
         self.video_path = video_path
         self.container = av.open(video_path)
         self.video_stream = self.container.streams.video[0]
-        self.fps = float(self.video_stream.average_rate)
 
         stream_total_frames = self.video_stream.frames
         self.total_frames = stream_total_frames if total_frames is None else total_frames
         self.current_pos = start_frame
-        print(f"[VideoStreamReader] {video_path}: stream_total={stream_total_frames}, start_frame={start_frame}, total_frames={self.total_frames}")
+        self.yielder = self.container.decode(video=0)
+        tqdm.write(f"[VideoStreamReader] {video_path}: stream_total={stream_total_frames}, start_frame={start_frame}, total_frames={self.total_frames}")
 
         if start_frame > 0:
-            print(f"[VideoStreamReader] Skipping {start_frame} frames...")
-            for i in range(start_frame):
-                frame = next(self.container.decode(video=0), None)
+            tqdm.write(f"[VideoStreamReader] Skipping {start_frame} frames...")
+            for _ in range(start_frame):
+                frame = next(self.yielder, None)
                 if frame is None:
                     break
 
@@ -172,18 +172,17 @@ class VideoStreamReader:
         if self.current_pos >= self.total_frames:
             return True, None
 
-        frames_to_read = min(batch_size, self.total_frames - self.current_pos - 1)
+        frames_to_read = min(batch_size, self.total_frames - self.current_pos)
         frames_list = []
 
         for i in range(frames_to_read):
             try:
-                frame = next(self.container.decode(video=0), None)
-                self.current_pos += 1
+                frame = next(self.yielder, None)
             except Exception as e:
-                print(f"[VideoStreamReader] ERROR: Exception at read_batch frame {i}/{frames_to_read}, current_pos={self.current_pos}: {e}")
-                break
+                tqdm.write(f"[VideoStreamReader] ERROR: Exception at read_batch frame {i}/{frames_to_read}, current_pos={self.current_pos}: {e}")
             if frame is None:
                 break
+            self.current_pos += 1
             frames_list.append(torch.from_numpy(frame.to_rgb().to_ndarray()).float())
 
         if not frames_list:
@@ -193,6 +192,7 @@ class VideoStreamReader:
         frames_tensor = transform_image(frames_tensor)
 
         is_ended = self.current_pos >= self.total_frames
+        frames_tensor = torch.clamp(frames_tensor, 0.0, 1.0)
         return is_ended, frames_tensor
 
     def __del__(self):

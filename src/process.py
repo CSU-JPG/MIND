@@ -28,11 +28,13 @@ def compute_metrics_single_gpu(task_queue, result_list, gt_root, test_root, dino
     warnings.filterwarnings("ignore", message=".*pretrained.*")
     warnings.filterwarnings("ignore", message=".*Weights.*")
     warnings.filterwarnings("ignore", message=".*video.*deprecated.*")
+    warnings.filterwarnings("ignore", message=".*timm\\.models\\.layers.*")
+    warnings.filterwarnings("ignore", message=".*TRANSFORMERS_CACHE.*")
     """
     在单个GPU上从任务队列获取并处理任务
     """
     # 初始化模型
-    if 'lcm' in requested_metrics:
+    if 'lcm' in requested_metrics or 'gsc' in requested_metrics:
         tqdm.write(f"GPU[{gpu_id}]: loading lcm model")
         lpips_metric = lpips.LPIPS(net='alex', spatial=False).to(device)
         ssim_metric = StructuralSimilarityIndexMeasure(data_range=1.0, reduction='none').to(device)
@@ -79,75 +81,110 @@ def compute_metrics_single_gpu(task_queue, result_list, gt_root, test_root, dino
 
             prefix = f"[GPU{gpu_id}] {data_path}"
             try:
-                mark_time, total_time = load_time_from_json(os.path.join(gt_dir, data_path, 'action.json'))
-                result = data
-                result['error'] = None
-                result['mark_time'] = mark_time
-                result['total_time'] = total_time
+                if data['test_type'] == 'mirror_test':
+                    if 'gsc' not in requested_metrics:
+                        continue
+                    result = data.copy()
+                    path_videos = [v for v in os.listdir(os.path.join(test_dir, data_path)) if v.endswith('.mp4')]
+                    result['video_results'] = []
+                    result['videos'] = path_videos
+                    result['error'] = None
+                    for video in path_videos:
+                        vid_result = {'video_name': video, 'error': None}
+                        sample_frames = get_video_length(os.path.join(test_dir, data_path, video))
+                        vid_result['mark_time'] = sample_frames // 2
+                        vid_result['sample_frames'] = sample_frames
+                        if sample_frames%2 == 1:
+                            vid_result['error'] = 'frame count is not an even number!'
+                            tqdm.write(f"{prefix}: Task failed because frame count is not an even number!")
+                            result['video_results'].append(vid_result)
+                            continue
 
-                tqdm.write(f"{prefix}: [1/5] Loading videos...")
+                        tqdm.write(f"{prefix}: [1/2] Reading videos...")
+                        sample_reader = VideoStreamReader(os.path.join(test_dir, data_path, video), start_frame=0, total_frames=sample_frames)
+                        _, imgs = sample_reader.read_batch(sample_frames)
 
-                # what i want
-                gt_frames = get_video_length(os.path.join(gt_dir, data_path, 'video.mp4'))
-                sample_frames = get_video_length(os.path.join(test_dir, data_path, 'video.mp4'))
-                tqdm.write(f"{prefix}: gt_frames={gt_frames}, sample={sample_frames}, total_time={total_time}, mark_time={mark_time}")
-                result['sample_frames'] = sample_frames
-                if sample_frames != total_time - mark_time:
-                    sample_frames = min(total_time - mark_time, sample_frames)
-                    total_time = sample_frames + mark_time
+                        origin_pred = imgs[:sample_frames // 2]
+                        mirror_pred = torch.flip(imgs[sample_frames // 2:], dims=[0])
 
-                gt_reader = VideoStreamReader(os.path.join(gt_dir, data_path, 'video.mp4'), start_frame=mark_time, total_frames=total_time)
-                sample_reader = VideoStreamReader(os.path.join(test_dir, data_path, 'video.mp4'), start_frame=0, total_frames=sample_frames)
+                        tqdm.write(f"{prefix}: part len: {len(origin_pred)}, {len(mirror_pred)}")
+                        
+                        tqdm.write(f"{prefix}: [2/2] Computing GSC metrics (MSE/PSNR/SSIM/LPIPS)...")
+                        gsc = lcm_metric(origin_pred, mirror_pred, lpips_metric, ssim_metric, psnr_metric, process_batch_size, device)
+                        vid_result['gsc'] = gsc
+                        result['video_results'].append(vid_result)
 
-                if 'lcm' in requested_metrics:
-                    tqdm.write(f"{prefix}: [2/5] Computing LCM metrics (MSE/PSNR/SSIM/LPIPS)...")
-                if 'visual' in requested_metrics:
-                    tqdm.write(f"{prefix}: [3/5] Computing visual quality metrics...")
-                if 'dino' in requested_metrics:
-                    tqdm.write(f"{prefix}: [4/5] Computing dino mse metrics...")
+                        del sample_reader                                                                                                                                                                  
+                        torch.cuda.empty_cache()
 
-                while True:
-                    is_ended, gt_imgs = gt_reader.read_batch(process_batch_size * 10)
-                    _, sample_imgs = sample_reader.read_batch(process_batch_size * 10)
+                else:
+                    mark_time, total_time = load_time_from_json(os.path.join(gt_dir, data_path, 'action.json'))
+                    result = data.copy()
+                    result['error'] = None
+                    result['mark_time'] = mark_time
+                    result['total_time'] = total_time
 
-                    if is_ended or gt_imgs is None or sample_imgs is None:
-                        break
+                    gt_frames = get_video_length(os.path.join(gt_dir, data_path, 'video.mp4'))
+                    sample_frames = get_video_length(os.path.join(test_dir, data_path, 'video.mp4'))
+                    tqdm.write(f"{prefix}: gt_frames={gt_frames}, sample={sample_frames}, total_time={total_time}, mark_time={mark_time}")
+                    result['sample_frames'] = sample_frames
 
-                    if 'lcm' in requested_metrics:
-                        lcm = lcm_metric(sample_imgs, gt_imgs, lpips_metric, ssim_metric, psnr_metric, process_batch_size, device)
-                        result['lcm'] = merge_lcm_results(result.get('lcm'), lcm)
+                    if sample_frames != total_time - mark_time:
+                        real_time = min(total_time - mark_time, sample_frames)
+                    else: real_time = sample_frames
 
-                    if 'visual' in requested_metrics:
-                        vq = visual_quality_metric(sample_imgs, imaging_model, aesthetic_model, clip_model, process_batch_size, device)
-                        result['visual_quality'] = merge_visual_results(result.get('visual_quality'), vq)
+                    if video_max_time is not None:
+                        real_time = min(real_time, video_max_time)
 
-                    if 'dino' in requested_metrics:
-                        dino = dino_mse_metric(sample_imgs, gt_imgs, dino_model, dino_processor, device, process_batch_size)
-                        result['dino'] = merge_dino_results(result.get('dino'), dino)
+                    gt_reader = VideoStreamReader(os.path.join(gt_dir, data_path, 'video.mp4'), start_frame=mark_time, total_frames=mark_time + real_time)
+                    sample_reader = VideoStreamReader(os.path.join(test_dir, data_path, 'video.mp4'), start_frame=0, total_frames=real_time)
 
-                    del gt_imgs, sample_imgs
+                    while True:
+                        tqdm.write(f"{prefix}: [1/5] Reading videos...")
+                        is_ended, gt_imgs = gt_reader.read_batch(process_batch_size * 10)
+                        _, sample_imgs = sample_reader.read_batch(process_batch_size * 10)
 
-                del gt_reader, sample_reader
-                torch.cuda.empty_cache()
+                        if is_ended or gt_imgs is None or sample_imgs is None:
+                            break
 
-                if 'action' in requested_metrics:
-                    tqdm.write(f"{prefix}: [4/5] Computing action accuracy (ViPE)...")
-                    # 计算action accuracy
-                    actions = extract_actions_from_json(os.path.join(gt_dir, data_path, 'action.json'), mark_time, 97)
-                    action = action_accuracy_metric(
-                        os.path.join(test_dir, data_path, 'video.mp4'),
-                        os.path.join(gt_dir, data_path, 'video.mp4'),
-                        mark_time,
-                        actions,
-                        max_frames = 97,
-                        gt_data_dir = os.path.join(gt_dir, data_path),
-                        verbose_prefix=f"  {prefix}",
-                        gpu_id=gpu_id
-                    )
-                    if action is not None:
-                        result['action'] = action
+                        if 'lcm' in requested_metrics:
+                            tqdm.write(f"{prefix}: [2/5] Computing LCM metrics (MSE/PSNR/SSIM/LPIPS)...")
+                            lcm = lcm_metric(sample_imgs, gt_imgs, lpips_metric, ssim_metric, psnr_metric, process_batch_size, device)
+                            result['lcm'] = merge_lcm_results(result.get('lcm'), lcm)
 
-                tqdm.write(f"{prefix}: Finish Task!")
+                        if 'visual' in requested_metrics:
+                            tqdm.write(f"{prefix}: [3/5] Computing visual quality metrics...")
+                            vq = visual_quality_metric(sample_imgs, imaging_model, aesthetic_model, clip_model, process_batch_size, device)
+                            result['visual_quality'] = merge_visual_results(result.get('visual_quality'), vq)
+
+                        if 'dino' in requested_metrics:
+                            tqdm.write(f"{prefix}: [4/5] Computing dino metrics...")
+                            dino = dino_mse_metric(sample_imgs, gt_imgs, dino_model, dino_processor, device, process_batch_size)
+                            result['dino'] = merge_dino_results(result.get('dino'), dino)
+
+                        del gt_imgs, sample_imgs
+
+                    del gt_reader, sample_reader
+                    torch.cuda.empty_cache()
+
+                    if 'action' in requested_metrics:
+                        tqdm.write(f"{prefix}: [4/5] Computing action accuracy (ViPE)...")
+                        # 计算action accuracy
+                        actions = extract_actions_from_json(os.path.join(gt_dir, data_path, 'action.json'), mark_time, 97)
+                        action = action_accuracy_metric(
+                            os.path.join(test_dir, data_path, 'video.mp4'),
+                            os.path.join(gt_dir, data_path, 'video.mp4'),
+                            mark_time,
+                            actions,
+                            max_frames = 97,
+                            gt_data_dir = os.path.join(gt_dir, data_path),
+                            verbose_prefix=f"  {prefix}",
+                            gpu_id=gpu_id
+                        )
+                        if action is not None:
+                            result['action'] = action
+
+                    tqdm.write(f"{prefix}: Finish Task!")
 
             except KeyboardInterrupt:
                 tqdm.write(f"{prefix}: Interrupted by user. Exiting...")
@@ -169,7 +206,7 @@ def compute_metrics_single_gpu(task_queue, result_list, gt_root, test_root, dino
 
     finally:
         tqdm.write(f"GPU{gpu_id}: Cleaning up...")
-        if 'lcm' in requested_metrics:
+        if 'lcm' in requested_metrics or 'gsc' in requested_metrics:
             del lpips_metric, ssim_metric, psnr_metric
         if 'visual' in requested_metrics:
             del imaging_model, aesthetic_model, clip_model
@@ -183,12 +220,19 @@ def compute_metrics(gt_root, test_root, dino_path, output_path, requested_metric
 
     all_data = []
     for perspective in ['1st_data', '3rd_data']:
-        for test_type in ['mem_test', 'action_space_test']:
-            gt_dir = os.path.join(gt_root, perspective, 'test', test_type)
-            test_dir = os.path.join(test_root, perspective, test_type)
+        for test_type in ['mem_test', 'action_space_test', 'mirror_test']:
+            if test_type == 'mirror_test':
+                if 'gsc' in requested_metrics:
+                    test_dir = os.path.join(test_root, perspective, test_type)
+                    all_data += [{'path': d, 'perspective': perspective, 'test_type': test_type }
+                        for d in os.listdir(test_dir)]
+            else:
+                if 'lcm' in requested_metrics or 'visual' in requested_metrics or 'dino' in requested_metrics or 'action' in requested_metrics:
+                    gt_dir = os.path.join(gt_root, perspective, 'test', test_type)
+                    test_dir = os.path.join(test_root, perspective, test_type)
 
-            all_data += [{'path': d, 'perspective': perspective, 'test_type': test_type}
-                for d in os.listdir(gt_dir) if os.path.exists(os.path.join(test_dir, d))]
+                    all_data += [{'path': d, 'perspective': perspective, 'test_type': test_type}
+                        for d in os.listdir(test_dir) if os.path.exists(os.path.join(gt_dir, d))]
 
     if len(all_data) == 0:
         tqdm.write(f"No data found!")
@@ -222,8 +266,6 @@ def compute_metrics(gt_root, test_root, dino_path, output_path, requested_metric
                     with open(output_path, 'w') as f:
                         result_dict['data'] = list(result_list)
                         json.dump(result_dict, f, indent=2)
-                else:
-                    pbar.update(0)
                 if last_count >= total_tasks:
                     break
                 time.sleep(0.5)
@@ -265,17 +307,18 @@ if __name__ == '__main__':
     warnings.filterwarnings("ignore", message=".*pretrained.*")
     warnings.filterwarnings("ignore", message=".*Weights.*")
     warnings.filterwarnings("ignore", message=".*video.*deprecated.*")
+    warnings.filterwarnings("ignore", message=".*timm.models.layers.*")
+    warnings.filterwarnings("ignore", message=".*TRANSFORMERS_CACHE.*")
 
     parser = argparse.ArgumentParser(description='Compute video metrics with multi-GPU support')
-    parser.add_argument('--gt_root', type=str, default='../MIND-Data', help='Ground truth data root directory')
-    parser.add_argument('--test_root', type=str, default='./i2v',
-                       help='Test data root directory')
+    parser.add_argument('--gt_root', type=str, required=True, help='Ground truth data root directory')
+    parser.add_argument('--test_root', type=str, required=True, help='Test data root directory')
     parser.add_argument('--dino_path', type=str, default='./dinov3_vitb16',
                        help='dinov3 weight directory, for example ./dinov3_vitb16')
     parser.add_argument('--num_gpus', type=int, default=1, help='Number of GPUs to use (default: 1)')
     parser.add_argument('--video_max_time', type=int, default=None, help='Maximum video frames (default: None = use all frames)')
     parser.add_argument('--output', type=str, default=None, help='Output JSON file path')
-    parser.add_argument('--metrics', type=str, default='lcm,visual,dino,action', help='Requested metrics to compute, comma separated (e.g. dino,visual)')
+    parser.add_argument('--metrics', type=str, default='lcm,visual,dino,action,gsc', help='Requested metrics to compute, comma separated (e.g. dino,visual)')
 
     args = parser.parse_args()
 

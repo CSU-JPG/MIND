@@ -35,8 +35,7 @@ def dino_mse_metric(pred_frames, gt_frames, dino_model=None, dino_processor=None
         batch_size=batch_size
     )  # [f, 196, 768]
 
-    # 计算每帧的MSE
-    mse_per_frame = ((pred_features - gt_features) ** 2).reshape(pred_features.shape[0], -1).mean(dim=1)  # [f]
+    mse_per_frame = ((pred_features - gt_features) ** 2).reshape(pred_features.shape[0], -1).mean(dim=1)
 
     result_dict['dino_mse'] = mse_per_frame.cpu().tolist()
     result_dict['avg_dino_mse'] = float(mse_per_frame.mean().cpu())
