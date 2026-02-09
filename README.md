@@ -56,29 +56,26 @@
 ```bash
 pip install -r requirements.txt 
 ```
-##### 2. Command Line Arguments
+##### 2. Multi-GPU Support
+How Multi-GPU Works
+- Videos are put into a task queue.
+- Each GPU process take one task from the queue when vacant.
+- If failed, the task will be put back into the queue.
+- Progress bars show accumulation for all results.
+- Every time when a task is finished, the result file is updated. You can obtain intermediate results from the file.
 
+The metrics computation supports multi-GPU parallel processing for faster evaluation.
+```bash
+python src/process.py --gt_root /path/to/MIND-Data --test_root /path/to/test/videos --num_gpus 8 --metrics lcm,visual,action
+```
 - `--gt_root`: Ground truth data root directory (required)
 - `--test_root`: Test data root directory (required)
 - `--dino_path`: DINOv3 model weights directory (default: `./dinov3_vitb16`)
 - `--num_gpus`: Number of GPUs to use for parallel processing (default: 1)
 - `--video_max_time`: Maximum video frames to process (default: `None` = use all frames)
 - `--output`: Output JSON file path (default: `result_{test_root}_{timestamp}.json`)
-- `--metrics`: Comma-separated metrics to compute (default: `lcm,visual,dino,action`)
-##### 3. Multi-GPU Support
-
-The metrics computation supports multi-GPU parallel processing for faster evaluation.
-
-```bash
-python src/process.py --gt_root /path/to/MIND-Data --test_root /path/to/test/videos --num_gpus 8 --metrics lcm,visual,action
-```
-**How Multi-GPU Works**
-- Videos are put into a task queue.
-- Each GPU process take one task from the queue when vacant.
-- If failed, the task will be put back into the queue.
-- Progress bars show accumulation for all results.
-- Every time when a task is finished, the result file is updated. You can obtain intermediate results from the file.
-##### 4. How to order your test files
+- `--metrics`: Comma-separated metrics to compute (default: `lcm,visual,dino,action,gsc`)
+##### 3. How to order your test files
 ```
 {model_name}
 ├── 1st_data
@@ -125,7 +122,7 @@ python src/process.py --gt_root /path/to/MIND-Data --test_root /path/to/test/vid
 - `{corresponding data name}`: corresponding ground truth data file name
 
 
-#####  5. The detailed information of output **<span style="color:red">`Result.json`</span>**
+#####  4. The detailed information of output **<span style="color:red">`Result.json`</span>**
 
 ```
 {
