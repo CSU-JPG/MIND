@@ -5,7 +5,7 @@
 <h5 align="center"><span style="color:red">TL;DR:</span> The first open-domain closed-loop revisited benchmark for evaluating memory consistency and action control in world models</h5>
 <div align="center">
 
-🌐[Homepage](https://csu-jpg.github.io/MIND.github.io/) | 👉 [Dataset](https://huggingface.co/datasets/CSU-JPG/MIND) | 📄 [Paper](https://csu-jpg.github.io/MIND.github.io/) | 💻 [Code](https://github.com/CSU-JPG/MIND) | 🏆 [Leaderboard (coming soon)](https://csu-jpg.github.io/MIND.github.io/)
+🌐[Homepage](https://csu-jpg.github.io/MIND.github.io/) | 👉 [Dataset](https://huggingface.co/datasets/CSU-JPG/MIND) | 📄 [Paper](https://arxiv.org/abs/2602.08025) | 💻 [Code](https://github.com/CSU-JPG/MIND) | 🏆 [Leaderboard (coming soon)](https://csu-jpg.github.io/MIND.github.io/)
 
 </div>
 
@@ -317,12 +317,12 @@ If you find our work can be helpful, we would appreciate your citation and star:
 ```bibtex
 @misc{ye2026mind,
       title={MIND: Benchmarking Memory Consistency and Action Control in World Models}, 
-      author={Yixuan Ye, Xuanyu Lu, Yuxin Jiang, Yuchao Gu, Rui Zhao, Qiwei Liang, Jiachun Pan, Fengda Zhang, Weijia Wu, Alex Jinpeng Wang},
+      author={Yixuan Ye and Xuanyu Lu and Yuxin Jiang and Yuchao Gu and Rui Zhao and Qiwei Liang and Jiachun Pan and Fengda Zhang and Weijia Wu and Alex Jinpeng Wang},
       year={2026},
-      eprint={xxx},
+      eprint={2602.08025},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/xxx}, 
+      url={https://arxiv.org/abs/2602.08025}, 
 }
 ```
 ## 📧 Contact
