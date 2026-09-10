@@ -1,8 +1,72 @@
+import os, sys
+print(f"[VIPE_UTILS_DEBUG_v3] loading from {__file__} | pid={os.getpid()} | sys.path[0]={sys.path[0] if sys.path else '?'}", file=sys.stderr, flush=True)
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 import hashlib
+import shutil
 import subprocess
+
+
+def _resolve_vipe_cli() -> str:
+    """Locate the ViPE CLI. Prefer the running interpreter's own venv, then
+    known checkout locations, and only fall back to PATH.
+
+    ViPE is installed editable into the MIND venv (built against torch 2.10
+    + cu128 + sm_120 — see build_vipe.bat). The DeepVerse copy is kept as a
+    fallback in case MIND's build is missing / broken.
+
+    PATH used to be checked FIRST. On Linux that is actively wrong: moreutils
+    ships an unrelated `/usr/bin/vipe` ("edit pipe in editor") which accepts
+    none of ViPE's flags, so every sample died with
+
+        Unknown option: output / Unknown option: pipeline
+        Usage: /usr/bin/vipe [--suffix=extension]
+
+    The action metric catches that per-sample and continues, so the run
+    completed and simply reported no `action` at all — 136 of 137 samples
+    skipped in one zing run. It only worked when the MIND venv happened to be
+    activated, which put the right `vipe` earlier on PATH; running the same
+    command from a non-activated shell (e.g. under tmux) silently lost the
+    metric.
+
+    The venv `bin/` (or `Scripts/`) beside `sys.executable` is the ViPE that
+    belongs to this interpreter, so resolve that first and platform-agnostically
+    — the old fallbacks were all Windows `Scripts/vipe.exe` paths and could
+    never match on Linux.
+
+    Function-scope imports guard against multiprocessing-spawn issues where a
+    worker re-imports a stale or partial vipe_utils module: even if module-level
+    state is weird, `os` and `shutil` are imported fresh here every call."""
+    import os as _os
+    import shutil as _shutil
+    import sys as _sys
+
+    _bindir = Path(_sys.executable).parent
+    _siblings = Path(__file__).resolve().parent.parent.parent.parent
+    candidates = [
+        # This interpreter's own venv -- the ViPE built against the torch that
+        # is already loaded in-process.
+        _bindir / "vipe",
+        _bindir / "vipe.exe",
+        # MIND venv: torch 2.10 has sm_120 SASS so UniDepth's F.linear /
+        # camera_layer no longer fails on RTX 5090.
+        _siblings / "MIND" / ".venv" / "bin" / "vipe",
+        _siblings / "MIND" / ".venv" / "Scripts" / "vipe.exe",
+        # DeepVerse venv (fallback): torch 2.7, action metric fails on sm_120.
+        _siblings / "DeepVerse" / ".venv" / "bin" / "vipe",
+        _siblings / "DeepVerse" / ".venv" / "Scripts" / "vipe.exe",
+    ]
+    for c in candidates:
+        if _os.path.exists(c):
+            return str(c)
+    found = _shutil.which("vipe")
+    if found:
+        return found
+    return "vipe"  # let subprocess surface the original error
+
+
+_VIPE_CLI = _resolve_vipe_cli()
 import numpy as np
 import os
 from tqdm import tqdm
@@ -129,18 +193,31 @@ def run_cmd(cmd: List[str], cwd: Optional[Path] = None, quiet: bool = False, env
     if not quiet:
         tqdm.write(f"Running command: {' '.join(cmd)}")
 
-    # Merge with existing environment
+    # Merge with existing environment, then STRIP cross-venv pollution.
+    # Defensive even now that vipe.exe lives in MIND venv (same python as
+    # process.py): if a user runs process.py from a different venv (e.g. uv-managed
+    # outer env with PYTHONHOME set), MIND's vipe.exe needs a clean env to load
+    # its own python correctly. Was originally added for the DeepVerse-vipe path
+    # (cp310 calling cp312) and still protects the MIND-vipe path.
     proc_env = os.environ.copy()
+    for k in ("PYTHONHOME", "PYTHONPATH", "PYTHONSTARTUP", "PYTHONNOUSERSITE",
+              "VIRTUAL_ENV", "VIRTUAL_ENV_PROMPT", "UV_PYTHON", "UV_PROJECT_ENVIRONMENT"):
+        proc_env.pop(k, None)
     if env:
         proc_env.update(env)
 
+    # text=True alone uses the OS locale codec (cp1252 on Windows), and ViPE's
+    # stderr contains tqdm bars / unicode arrows that are not cp1252 — that
+    # raises UnicodeDecodeError(`charmap`) inside run_cmd before we even see
+    # the real return code. Force utf-8 with replacement.
     if quiet:
         p = subprocess.run(cmd, cwd=str(cwd) if cwd else None,
                           stdout=subprocess.DEVNULL, stderr=subprocess.PIPE,
-                          text=True, env=proc_env)
+                          text=True, encoding="utf-8", errors="replace", env=proc_env)
     else:
         p = subprocess.run(cmd, cwd=str(cwd) if cwd else None,
-                          stderr=subprocess.PIPE, text=True, env=proc_env)
+                          stderr=subprocess.PIPE,
+                          text=True, encoding="utf-8", errors="replace", env=proc_env)
 
     if p.returncode != 0:
         error_msg = f"Command failed: {' '.join(cmd)}"
@@ -159,7 +236,10 @@ def find_images_txt(root: Path) -> Optional[Path]:
 def vipe_to_colmap(out_dir: Path, vipe_repo: Path, gpu_id: int = 0) -> None:
     vipe_repo = vipe_repo.resolve()
     script = Path("scripts/vipe_to_colmap.py")
-    run_cmd(["python", str(script), str(out_dir)], cwd=vipe_repo, quiet=True, env={"CUDA_VISIBLE_DEVICES": str(gpu_id)})
+    # sys.executable instead of bare "python": the action-metric worker runs in
+    # MIND venv (cv2 4.13.0 present); bare `python` resolves via PATH to the
+    # uv-managed system python which has no cv2 -> ModuleNotFoundError.
+    run_cmd([sys.executable, str(script), str(out_dir)], cwd=vipe_repo, quiet=True, env={"CUDA_VISIBLE_DEVICES": str(gpu_id)})
 
 
 def parse_colmap_images_txt(images_txt: Path) -> Tuple[np.ndarray, int]:
@@ -243,7 +323,7 @@ def extract_traj(video: Path, cache_dir: Path, pipeline: str = "default", gt_cac
     out_dir = cache_dir / "vipe" / key
     out_dir.mkdir(parents=True, exist_ok=True)
     tqdm.write(f"{verbose_prefix}  Running ViPE inference: {video.name} -> {out_dir.name}...")
-    run_cmd(["vipe", "infer", str(video), "--output", str(out_dir), "--pipeline", pipeline],
+    run_cmd([_VIPE_CLI, "infer", str(video), "--output", str(out_dir), "--pipeline", pipeline],
             quiet=True, env={"CUDA_VISIBLE_DEVICES": str(gpu_id)})
 
     tqdm.write(f"{verbose_prefix}  Converting to COLMAP format...")

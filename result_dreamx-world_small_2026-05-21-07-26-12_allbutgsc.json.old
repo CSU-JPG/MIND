@@ -1,0 +1,1105 @@
+{
+  "data": [
+    {
+      "path": "data-25",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-26",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-27",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-28",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-29",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-30",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-31",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-32",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-33",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-34",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-35",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-36",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-37",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-38",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-39",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-40",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-41",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-42",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-43",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-44",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-45",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-46",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-47",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-48",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-49",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-50",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-51",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-52",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-53",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-54",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-55",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-56",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-57",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-58",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-59",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-60",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-61",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-62",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-63",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-64",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-65",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-66",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-67",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-68",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-69",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-70",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-71",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-72",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-73",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-74",
+      "perspective": "1st_data",
+      "test_type": "mirror_test",
+      "video_results": [
+        {
+          "video_name": "video.mp4",
+          "error": "frame count is not an even number!",
+          "mark_time": 60,
+          "sample_frames": 121
+        }
+      ],
+      "videos": [
+        "video.mp4"
+      ],
+      "error": null
+    },
+    {
+      "path": "data-25",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_230f6b87ec0a_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_230f6b87ec0a_start0_frames97.mp4-aa8e33ff2cc2 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  16%|\u2588\u258c        | 13/81 [00:00<00:00, 128.04it/s]\nReading video stream:  81%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258f | 66/81 [00:00<00:00, 361.91it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 356.74it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 1465,
+      "total_time": 4352,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_230f6b87ec0a_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_230f6b87ec0a_start0_frames97.mp4-aa8e33ff2cc2 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  16%|\u2588\u258c        | 13/81 [00:00<00:00, 128.04it/s]\nReading video stream:  81%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258f | 66/81 [00:00<00:00, 361.91it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 356.74it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-26",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_8a96748e810c_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_8a96748e810c_start0_frames97.mp4-13e886c6f907 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  14%|\u2588\u258e        | 11/81 [00:00<00:00, 109.70it/s]\nReading video stream:  95%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258c| 77/81 [00:00<00:00, 432.91it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 393.42it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 994,
+      "total_time": 2982,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_8a96748e810c_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_8a96748e810c_start0_frames97.mp4-13e886c6f907 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  14%|\u2588\u258e        | 11/81 [00:00<00:00, 109.70it/s]\nReading video stream:  95%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258c| 77/81 [00:00<00:00, 432.91it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 393.42it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-27",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_68581f660d72_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_68581f660d72_start0_frames97.mp4-eb3086d727fd --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  19%|\u2588\u258a        | 15/81 [00:00<00:00, 149.91it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 412.05it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 2030,
+      "total_time": 6014,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_68581f660d72_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_68581f660d72_start0_frames97.mp4-eb3086d727fd --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  19%|\u2588\u258a        | 15/81 [00:00<00:00, 149.91it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 412.05it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-28",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_3a918885417b_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_3a918885417b_start0_frames97.mp4-43f04804027e --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  17%|\u2588\u258b        | 14/81 [00:00<00:00, 139.41it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 409.23it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 1112,
+      "total_time": 3336,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_3a918885417b_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_3a918885417b_start0_frames97.mp4-43f04804027e --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  17%|\u2588\u258b        | 14/81 [00:00<00:00, 139.41it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 409.23it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-29",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_b493944520ad_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_b493944520ad_start0_frames97.mp4-7fcc9b8b83f4 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  15%|\u2588\u258d        | 12/81 [00:00<00:00, 119.08it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 408.83it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 1608,
+      "total_time": 4825,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_b493944520ad_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_b493944520ad_start0_frames97.mp4-7fcc9b8b83f4 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  15%|\u2588\u258d        | 12/81 [00:00<00:00, 119.08it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 408.83it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-30",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_904e250f270e_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_904e250f270e_start0_frames97.mp4-74db94867eb4 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  19%|\u2588\u258a        | 15/81 [00:00<00:00, 149.57it/s]\nReading video stream:  99%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2589| 80/81 [00:00<00:00, 440.58it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 398.11it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 281,
+      "total_time": 845,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_904e250f270e_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_904e250f270e_start0_frames97.mp4-74db94867eb4 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  19%|\u2588\u258a        | 15/81 [00:00<00:00, 149.57it/s]\nReading video stream:  99%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2589| 80/81 [00:00<00:00, 440.58it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 398.11it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-31",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_b92900ca5278_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_b92900ca5278_start0_frames97.mp4-3bb62125ad0d --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:   9%|\u258a         | 7/81 [00:00<00:01, 69.88it/s]\nReading video stream:  63%|\u2588\u2588\u2588\u2588\u2588\u2588\u258e   | 51/81 [00:00<00:00, 283.02it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 312.94it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 733,
+      "total_time": 2200,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_b92900ca5278_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_b92900ca5278_start0_frames97.mp4-3bb62125ad0d --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:   9%|\u258a         | 7/81 [00:00<00:01, 69.88it/s]\nReading video stream:  63%|\u2588\u2588\u2588\u2588\u2588\u2588\u258e   | 51/81 [00:00<00:00, 283.02it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 312.94it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-32",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_928e6f3de9be_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_928e6f3de9be_start0_frames97.mp4-fef8ae71d729 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:   1%|          | 1/81 [00:00<00:08,  9.81it/s]\nReading video stream:  89%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2589 | 72/81 [00:00<00:00, 416.39it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 374.49it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 1689,
+      "total_time": 5069,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_928e6f3de9be_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_928e6f3de9be_start0_frames97.mp4-fef8ae71d729 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:   1%|          | 1/81 [00:00<00:08,  9.81it/s]\nReading video stream:  89%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2589 | 72/81 [00:00<00:00, 416.39it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 374.49it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-33",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_47ca03fdb195_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_47ca03fdb195_start0_frames97.mp4-be845f079d37 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  12%|\u2588\u258f        | 10/81 [00:00<00:00, 99.24it/s]\nReading video stream:  93%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258e| 75/81 [00:00<00:00, 419.75it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 381.53it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 342,
+      "total_time": 1026,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_47ca03fdb195_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_47ca03fdb195_start0_frames97.mp4-be845f079d37 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  12%|\u2588\u258f        | 10/81 [00:00<00:00, 99.24it/s]\nReading video stream:  93%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258e| 75/81 [00:00<00:00, 419.75it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 381.53it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-34",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_85aaaf13f10b_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_85aaaf13f10b_start0_frames97.mp4-205be448b6cb --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  20%|\u2588\u2589        | 16/81 [00:00<00:00, 158.59it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 422.54it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 1216,
+      "total_time": 3649,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_85aaaf13f10b_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_85aaaf13f10b_start0_frames97.mp4-205be448b6cb --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  20%|\u2588\u2589        | 16/81 [00:00<00:00, 158.59it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 422.54it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-35",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_f3cd4f5a04bc_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_f3cd4f5a04bc_start0_frames97.mp4-0193ccf5f386 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  19%|\u2588\u258a        | 15/81 [00:00<00:00, 149.17it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 409.04it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 616,
+      "total_time": 1850,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_f3cd4f5a04bc_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_f3cd4f5a04bc_start0_frames97.mp4-0193ccf5f386 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  19%|\u2588\u258a        | 15/81 [00:00<00:00, 149.17it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 409.04it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-36",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_2546400547e4_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_2546400547e4_start0_frames97.mp4-8cb4e279860a --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:   6%|\u258c         | 5/81 [00:00<00:01, 49.30it/s]\nReading video stream:  80%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588  | 65/81 [00:00<00:00, 370.24it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 361.69it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 422,
+      "total_time": 1268,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_2546400547e4_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_2546400547e4_start0_frames97.mp4-8cb4e279860a --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:   6%|\u258c         | 5/81 [00:00<00:01, 49.30it/s]\nReading video stream:  80%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588  | 65/81 [00:00<00:00, 370.24it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 361.69it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-37",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_4b8e58ca99d7_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_4b8e58ca99d7_start0_frames97.mp4-77a8ceb5ca84 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  20%|\u2588\u2589        | 16/81 [00:00<00:00, 159.74it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 408.60it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 1253,
+      "total_time": 3760,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_4b8e58ca99d7_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_4b8e58ca99d7_start0_frames97.mp4-77a8ceb5ca84 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  20%|\u2588\u2589        | 16/81 [00:00<00:00, 159.74it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 408.60it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-38",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_51b0881de85d_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_51b0881de85d_start0_frames97.mp4-d621c513f678 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  26%|\u2588\u2588\u258c       | 21/81 [00:00<00:00, 208.40it/s]\nReading video stream:  89%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2589 | 72/81 [00:00<00:00, 381.73it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 367.59it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 1800,
+      "total_time": 5400,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_51b0881de85d_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_51b0881de85d_start0_frames97.mp4-d621c513f678 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  26%|\u2588\u2588\u258c       | 21/81 [00:00<00:00, 208.40it/s]\nReading video stream:  89%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2589 | 72/81 [00:00<00:00, 381.73it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 367.59it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-39",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_09949c018095_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_09949c018095_start0_frames97.mp4-e79f73e2e54c --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  17%|\u2588\u258b        | 14/81 [00:00<00:00, 138.50it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 413.19it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 2225,
+      "total_time": 6675,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_09949c018095_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_09949c018095_start0_frames97.mp4-e79f73e2e54c --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  17%|\u2588\u258b        | 14/81 [00:00<00:00, 138.50it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 413.19it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-40",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_668cb09b65f8_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_668cb09b65f8_start0_frames97.mp4-f83d2f21f97a --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:   4%|\u258e         | 3/81 [00:00<00:02, 29.54it/s]\nReading video stream:  73%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258e  | 59/81 [00:00<00:00, 336.49it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 321.24it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 851,
+      "total_time": 2553,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_668cb09b65f8_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_668cb09b65f8_start0_frames97.mp4-f83d2f21f97a --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:   4%|\u258e         | 3/81 [00:00<00:02, 29.54it/s]\nReading video stream:  73%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258e  | 59/81 [00:00<00:00, 336.49it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 321.24it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-41",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_a2d4b39a470e_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_a2d4b39a470e_start0_frames97.mp4-dbaa4fbabc86 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:   9%|\u258a         | 7/81 [00:00<00:01, 68.29it/s]\nReading video stream:  95%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258c| 77/81 [00:00<00:00, 434.76it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 387.52it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 348,
+      "total_time": 1045,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_a2d4b39a470e_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_a2d4b39a470e_start0_frames97.mp4-dbaa4fbabc86 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:   9%|\u258a         | 7/81 [00:00<00:01, 68.29it/s]\nReading video stream:  95%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258c| 77/81 [00:00<00:00, 434.76it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 387.52it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-42",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_eb78e1e8f836_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_eb78e1e8f836_start0_frames97.mp4-04bee59332dc --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:   4%|\u258e         | 3/81 [00:00<00:02, 29.55it/s]\nReading video stream:  89%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2589 | 72/81 [00:00<00:00, 415.15it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 377.24it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 971,
+      "total_time": 2914,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_eb78e1e8f836_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_eb78e1e8f836_start0_frames97.mp4-04bee59332dc --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:   4%|\u258e         | 3/81 [00:00<00:02, 29.55it/s]\nReading video stream:  89%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2589 | 72/81 [00:00<00:00, 415.15it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 377.24it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-43",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_999be585e207_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_999be585e207_start0_frames97.mp4-90c661ffbcbd --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  22%|\u2588\u2588\u258f       | 18/81 [00:00<00:00, 179.80it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 433.81it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 821,
+      "total_time": 2464,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_999be585e207_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_999be585e207_start0_frames97.mp4-90c661ffbcbd --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  22%|\u2588\u2588\u258f       | 18/81 [00:00<00:00, 179.80it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 433.81it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-44",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_185687c9ffb0_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_185687c9ffb0_start0_frames97.mp4-d87117dcb75c --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  19%|\u2588\u258a        | 15/81 [00:00<00:00, 149.19it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 415.24it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 558,
+      "total_time": 1674,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_185687c9ffb0_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_185687c9ffb0_start0_frames97.mp4-d87117dcb75c --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  19%|\u2588\u258a        | 15/81 [00:00<00:00, 149.19it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 415.24it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-45",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_a8e381b0a8f9_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_a8e381b0a8f9_start0_frames97.mp4-508cbb513ae7 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  14%|\u2588\u258e        | 11/81 [00:00<00:00, 109.48it/s]\nReading video stream:  93%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258e| 75/81 [00:00<00:00, 419.69it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 385.59it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 1015,
+      "total_time": 3046,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_a8e381b0a8f9_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_a8e381b0a8f9_start0_frames97.mp4-508cbb513ae7 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  14%|\u2588\u258e        | 11/81 [00:00<00:00, 109.48it/s]\nReading video stream:  93%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258e| 75/81 [00:00<00:00, 419.69it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 385.59it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-46",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_1f42a6e2b0bb_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_1f42a6e2b0bb_start0_frames97.mp4-00b009b98792 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  19%|\u2588\u258a        | 15/81 [00:00<00:00, 149.09it/s]\nReading video stream:  98%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258a| 79/81 [00:00<00:00, 435.79it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 396.79it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 1156,
+      "total_time": 3469,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_1f42a6e2b0bb_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_1f42a6e2b0bb_start0_frames97.mp4-00b009b98792 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  19%|\u2588\u258a        | 15/81 [00:00<00:00, 149.09it/s]\nReading video stream:  98%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258a| 79/81 [00:00<00:00, 435.79it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 396.79it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-47",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_078f5410db89_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_078f5410db89_start0_frames97.mp4-122b0a7e5459 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  35%|\u2588\u2588\u2588\u258d      | 28/81 [00:00<00:00, 278.58it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 457.59it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 782,
+      "total_time": 2346,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_078f5410db89_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_078f5410db89_start0_frames97.mp4-122b0a7e5459 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  35%|\u2588\u2588\u2588\u258d      | 28/81 [00:00<00:00, 278.58it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 457.59it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-48",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_24fb95c42a5a_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_24fb95c42a5a_start0_frames97.mp4-d2f7e0525b0b --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  15%|\u2588\u258d        | 12/81 [00:00<00:00, 119.38it/s]\nReading video stream:  99%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2589| 80/81 [00:00<00:00, 444.50it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 396.99it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 971,
+      "total_time": 2913,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_24fb95c42a5a_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_24fb95c42a5a_start0_frames97.mp4-d2f7e0525b0b --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  15%|\u2588\u258d        | 12/81 [00:00<00:00, 119.38it/s]\nReading video stream:  99%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2589| 80/81 [00:00<00:00, 444.50it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 396.99it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    },
+    {
+      "path": "data-49",
+      "perspective": "1st_data",
+      "test_type": "mem_test",
+      "error": "Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_08f8c5fe63ee_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_08f8c5fe63ee_start0_frames97.mp4-0405be14d3e9 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  31%|\u2588\u2588\u2588       | 25/81 [00:00<00:00, 249.26it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 427.80it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n",
+      "mark_time": 439,
+      "total_time": 1317,
+      "sample_frames": 81,
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\workspace\\world\\MIND\\src\\process.py\", line 204, in compute_metrics_single_gpu\n    action = action_accuracy_metric(\n  File \"C:\\workspace\\world\\MIND\\src\\metrics\\action.py\", line 50, in action_accuracy_metric\n    gen_T = extract_traj(\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 295, in extract_traj\n    run_cmd([_VIPE_CLI, \"infer\", str(video), \"--output\", str(out_dir), \"--pipeline\", pipeline],\n  File \"C:\\workspace\\world\\MIND\\src\\utils\\vipe_utils.py\", line 195, in run_cmd\n    raise RuntimeError(error_msg)\nRuntimeError: Command failed: C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe infer C:\\Users\\kschmid\\.cache\\mind\\vipe\\cropped_videos\\video_08f8c5fe63ee_start0_frames97.mp4 --output C:\\Users\\kschmid\\.cache\\mind\\vipe\\vipe\\video_08f8c5fe63ee_start0_frames97.mp4-0405be14d3e9 --pipeline default\nError output:\n\nReading video stream:   0%|          | 0/81 [00:00<?, ?it/s]\nReading video stream:  31%|\u2588\u2588\u2588       | 25/81 [00:00<00:00, 249.26it/s]\nReading video stream: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 81/81 [00:00<00:00, 427.80it/s]\nTraceback (most recent call last):\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Users\\kschmid\\AppData\\Roaming\\uv\\python\\cpython-3.10-windows-x86_64-none\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\workspace\\world\\MIND\\.venv\\Scripts\\vipe.exe\\__main__.py\", line 10, in <module>\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1524, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1445, in main\n    rv = self.invoke(ctx)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1912, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 1308, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\workspace\\world\\MIND\\.venv\\lib\\site-packages\\click\\core.py\", line 877, in invoke\n    return callback(*args, **kwargs)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\cli\\main.py\", line 91, in infer\n    vipe_pipeline.run(video_stream)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 119, in run\n    slam_streams: list[VideoStream] = [\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 120, in <listcomp>\n    self._add_init_processors(video_stream).cache(\"process\", online=True) for video_stream in video_streams\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\default.py\", line 75, in _add_init_processors\n    TrackAnythingProcessor(\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\pipeline\\processors.py\", line 125, in __init__\n    self.tracker = TrackAnythingPipeline(self.mask_phrases, sam_points_per_side=50, sam_run_gap=self.sam_run_gap)\n  File \"C:\\workspace\\world\\MIND\\vipe\\vipe\\priors\\track_anything\\__init__.py\", line 35, in __init__\n    gdown.download(\nTypeError: download() got an unexpected keyword argument 'fuzzy'\n\n"
+    }
+  ],
+  "video_max_time": null
+}

@@ -8,9 +8,28 @@ import json
 from tqdm import tqdm
 import numpy as np
 import cv2
+import shutil
 import subprocess
 from pathlib import Path
 import hashlib
+
+
+def _resolve_ffmpeg() -> str:
+    """Locate an ffmpeg binary. Prefer PATH; fall back to the imageio-ffmpeg
+    bundled binary so Windows installs without a system ffmpeg still work."""
+    found = shutil.which("ffmpeg")
+    if found:
+        return found
+    try:
+        import imageio_ffmpeg
+        return imageio_ffmpeg.get_ffmpeg_exe()
+    except Exception:
+        # Last resort — let subprocess.run surface WinError 2 with a clearer
+        # message than the original "[WinError 2] ..." we've been chasing.
+        return "ffmpeg"
+
+
+_FFMPEG = _resolve_ffmpeg()
 from torchvision.transforms import Compose, Resize, CenterCrop, ToTensor, Normalize, ToPILImage
 try:
     from torchvision.transforms import InterpolationMode
@@ -120,8 +139,33 @@ def expand_to_batch_dim(tensor, batch_size):
     return tensor.unsqueeze(0).expand(batch_size, *tensor.shape)
 
 # legacy code, preserve
-from torchvision.io import read_video
+# torchvision.io.read_video is dropped from torchvision CUDA wheels (0.20+),
+# so we provide an av-based replacement with the same (video, audio, info) return shape.
 import av
+
+
+def read_video(video_path, pts_unit="sec", start_pts=None, end_pts=None):
+    frames = []
+    fps = 0.0
+    with av.open(str(video_path)) as container:
+        stream = container.streams.video[0]
+        if stream.average_rate:
+            fps = float(stream.average_rate)
+        time_base = float(stream.time_base) if stream.time_base else 0.0
+        for frame in container.decode(stream):
+            if start_pts is not None and pts_unit == "sec" and time_base:
+                t = float(frame.pts) * time_base if frame.pts is not None else 0.0
+                if t < start_pts:
+                    continue
+            if end_pts is not None and pts_unit == "sec" and time_base:
+                t = float(frame.pts) * time_base if frame.pts is not None else 0.0
+                if t > end_pts:
+                    break
+            frames.append(frame.to_ndarray(format="rgb24"))
+    if not frames:
+        return torch.empty(0, dtype=torch.uint8), torch.empty(0), {"video_fps": fps}
+    video = torch.from_numpy(np.stack(frames))
+    return video, torch.empty(0), {"video_fps": fps}
 
 def load_sample_video(video_path, mark_time, total_time, max_time = None) -> torch.Tensor:
     video_length = total_time - mark_time
@@ -288,14 +332,14 @@ def crop_video_frames(video_path, max_frames, cache_dir, start_frame=0):
     
     if start_frame == 0:
         cmd = [
-            "ffmpeg", "-i", str(video_path),
+            _FFMPEG, "-i", str(video_path),
             "-vframes", str(max_frames),
             "-c:v", "libx264", "-crf", "18",
             "-y", str(cache_path)
         ]
     else:
         cmd = [
-            "ffmpeg",
+            _FFMPEG,
             "-i", str(video_path),
             "-vf", f"select=gte(n\,{start_frame})",  # 从指定帧开始
             "-vframes", str(max_frames),

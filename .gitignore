@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and caches
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build artifacts
+build_vipe.log
+
+# Model weights / downloads
+dinov3_vitb16/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Data / outputs
+outputs/
+output/
+results/
+results_bak/
+result_*.json
+runs/
+checkpoints/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Local / scratch
+scratch/
+tmp/
+temp/

@@ -34,8 +34,13 @@ def lcm_metric(pred, gt,
             lpips_batch = [item[0][0][0] for item in lpips_batch]
             lpips_list.extend(lpips_batch)
 
-            psnr_list.extend(psnr_metric(pred_batch, gt_batch).cpu().tolist())
-            ssim_list.extend(ssim_metric(pred_batch, gt_batch).cpu().tolist())
+            # torchmetrics' PSNR/SSIM with reduction='none' return a 0-d scalar
+            # when the batch has exactly 1 sample (last partial batch). Guard so
+            # `.tolist()` produces a list either way.
+            psnr_out = psnr_metric(pred_batch, gt_batch).cpu()
+            ssim_out = ssim_metric(pred_batch, gt_batch).cpu()
+            psnr_list.extend(psnr_out.tolist() if psnr_out.ndim > 0 else [psnr_out.item()])
+            ssim_list.extend(ssim_out.tolist() if ssim_out.ndim > 0 else [ssim_out.item()])
 
             del pred_batch, gt_batch, diff
             torch.cuda.empty_cache()

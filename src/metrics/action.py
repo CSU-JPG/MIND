@@ -38,20 +38,35 @@ def action_accuracy_metric(pred_vid_path, gt_vid_path, mark_time, actions, cache
     gt_vid_path = crop_video_frames(gt_vid_path, max_frames, cache_dir, start_frame=mark_time)
 
     tqdm.write(f"{verbose_prefix}[2/5] Extracting GT trajectory...")
-    gt_T = extract_traj(
-        gt_vid_path, cache_dir,
-        gt_cache_path=gt_data_dir,
-        expected_frames=max_frames,
-        verbose_prefix=verbose_prefix,
-        gpu_id=gpu_id
-    )
+    # ViPE's depth prior raises `ValueError: There are not enough known points.`
+    # from sparse_sampler when fewer than K=5 valid depth pixels survive its
+    # filtering — happens on a handful of texture-poor / low-contrast samples
+    # (sky-only, flat fog, etc). Let the action metric short-circuit to None
+    # for that sample so the run doesn't dump a 25-line traceback per failure
+    # and the rest of the metrics keep flowing. process.py already records
+    # `result['error']` from its outer except, so the failure is still visible
+    # in the JSON.
+    try:
+        gt_T = extract_traj(
+            gt_vid_path, cache_dir,
+            gt_cache_path=gt_data_dir,
+            expected_frames=max_frames,
+            verbose_prefix=verbose_prefix,
+            gpu_id=gpu_id
+        )
 
-    tqdm.write(f"{verbose_prefix}[3/5] Extracting generated trajectory...")
-    gen_T = extract_traj(
-        pred_vid_path, cache_dir,
-        verbose_prefix=verbose_prefix,
-        gpu_id=gpu_id
-    )
+        tqdm.write(f"{verbose_prefix}[3/5] Extracting generated trajectory...")
+        gen_T = extract_traj(
+            pred_vid_path, cache_dir,
+            verbose_prefix=verbose_prefix,
+            gpu_id=gpu_id
+        )
+    except ValueError as exc:
+        tqdm.write(f"{verbose_prefix}[skip action] ViPE extract_traj failed: {exc}")
+        return None
+    except Exception as exc:  # noqa: BLE001 — worker pipes can break in many ways
+        tqdm.write(f"{verbose_prefix}[skip action] ViPE extract_traj crashed: {type(exc).__name__}: {exc}")
+        return None
 
     # Align lengths to actions (+delta poses)
     n_steps = min(len(actions), len(gt_T) - delta, len(gen_T) - delta)
